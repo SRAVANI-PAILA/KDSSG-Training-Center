@@ -60,14 +60,16 @@ h1,h2,h3,h4,h5,h6,p{
 .nav-section{
     padding:10px 0px;
 }
-.banner{
-    background-image: url("banner-img.png");
+.hero-content{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("banner-img.png");
     background-size:contain;
     background-repeat: no-repeat;
     background-position: right;
     height:500px;
-    display: flex;
-    align-items: center;
 }
 .hero-content h1{
    font-size: 40px;
@@ -534,9 +536,10 @@ font-size:46px;
   .footer-bottom-left p {
     padding: 0px;
   }
-  .banner{
-    display: flex;
-    align-items: center;
+  .hero-content{
+    background: none;
+    height: 300px;
+    justify-content: start;
 }
 }
 
