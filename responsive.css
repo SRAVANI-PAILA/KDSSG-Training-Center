@@ -1,0 +1,267 @@
+/* 1. Small devices (up to 575px) */
+@media only screen and (max-width: 575px) {
+  .about-box {
+    border: 15px solid white;
+    height: 280px;
+    width: 320px;
+  }
+
+  .about-text p {
+    font-size: 36px;
+    line-height: 54px;
+    color: white;
+    background-color: #cb070a;
+    position: absolute;
+    top: 32px;
+    left: 50px;
+    font-weight: 600;
+    right: -20px;
+  }
+
+  .quote img {
+    width: 50px;
+  }
+
+  .quote {
+    left: -60px;
+  }
+
+  .student-say-sec h3 {
+    font-size: 36px;
+    line-height: 64px;
+  }
+
+  .footer-left {
+    border-bottom: 2px solid #c2c2c2;
+    border-right: none;
+  }
+
+  .footer-right {
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-bottom-left p {
+    padding: 0px;
+  }
+
+  .hero-content {
+    background: none;
+    height: 300px;
+    justify-content: start;
+  }
+
+  .about-heading h3 {
+    font-size: 46px;
+    line-height: 54px;
+  }
+
+  .about-heading p {
+    font-size: 34px;
+  }
+
+  .footer-logo p {
+    font-size: 35px;
+    line-height: 47px;
+    color: white;
+    text-align: center;
+  }
+
+  .footer-right h3 {
+    font-size: 38px;
+    line-height: 51px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+  }
+}
+
+/* 2. Small screen fix (360px to 445px) – put this AFTER the 575px block to override */
+@media only screen and (min-width: 360px) and (max-width: 445px) {
+  .hero-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 55px;
+    padding-top: 60px;
+  }
+
+  .hero-content {
+    height: 100px;
+  }
+
+  .about-heading h3 {
+    font-size: 30px !important;
+    line-height: 54px !important;
+  }
+
+  .about-heading p {
+    font-size: 28px;
+  }
+
+  .why-kdssg-text h2 {
+    font-size: 36px;
+    color: #333333;
+    line-height: 55px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    line-height: 38px;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    background-color: #cb070a;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+  }
+
+  .accordion-body {
+    font-size: 14px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+
+  .student-say-sec h3 {
+    font-size: 26px !important;
+    line-height: 44px !important;
+  }
+}
+
+/* 3. Small to medium devices (576px - 767px) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .hero-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 45px;
+    padding-top: 80px;
+  }
+
+  .quote img {
+    width: 50px;
+  }
+
+  .quote {
+    left: -60px;
+  }
+
+  .student-say-sec h3 {
+    font-size: 36px;
+    line-height: 64px;
+  }
+
+  .footer-left {
+    border-bottom: 2px solid #c2c2c2;
+    border-right: none;
+  }
+
+  .footer-right {
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-bottom-left p {
+    padding: 0px;
+  }
+
+  .about-text p {
+    font-size: 40px;
+    line-height: 50px;
+    right: -28px;
+    top: 50px;
+  }
+
+  .about-box {
+    border: 15px solid white;
+    height: 280px;
+    width: 320px;
+  }
+
+  .footer-logo p {
+    font-size: 35px;
+    line-height: 47px;
+    color: white;
+    text-align: center;
+  }
+
+  .footer-right h3 {
+    font-size: 38px;
+    line-height: 51px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+  }
+}
+
+/* 4. Tablets (768px - 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-logo img {
+    width: 265px !important;
+  }
+
+  .footer-logo p {
+    font-size: 28px;
+  }
+}
+
+/* 5. All devices up to 991px */
+@media only screen and (max-width: 991px) {
+  .new-person {
+    width: 266px;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    left: 0;
+    z-index: 2;
+  }
+
+  .hero-content {
+    height: 300px;
+  }
+
+  .join-btn a {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 21px;
+    line-height: 31px;
+  }
+}
+
+/* 6. Medium desktops (992px - 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-heading h3 {
+    font-size: 46px;
+    line-height: 64px;
+  }
+
+  .about-heading p {
+    font-size: 34px;
+  }
+
+  .text p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
