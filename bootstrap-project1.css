@@ -548,6 +548,27 @@ font-size:46px;
 .about-heading p {
     font-size: 34px;
 }
+.footer-logo p {
+    font-size: 35px;
+    line-height: 47px;
+    color: white;
+    text-align: center;
+}
+.footer-right {
+    padding-left: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-right h3 {
+    font-size: 38px;
+    line-height: 51px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+}
 /* Styles for small devices (576px - 767px) */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero-content h1 {
@@ -595,6 +616,26 @@ font-size:46px;
     height: 280px;
     width: 320px;
   }
+  .footer-logo p {
+    font-size: 35px;
+    line-height: 47px;
+    color: white;
+    text-align: center;
+}
+.footer-right {
+    padding-left: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-right h3 {
+    font-size: 38px;
+    line-height: 51px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
 }
 
 /* Styles for tablets (768px - 991px) */
@@ -622,7 +663,7 @@ font-size:46px;
     z-index: 2;
   }
 
-  .banner {
+  .hero-content {
     height: 300px;
   }
 
