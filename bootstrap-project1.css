@@ -534,6 +534,10 @@ font-size:46px;
   .footer-bottom-left p {
     padding: 0px;
   }
+  .banner{
+    display: flex;
+    align-items: center;
+}
 }
 
 /* Styles for small devices (576px - 767px) */
